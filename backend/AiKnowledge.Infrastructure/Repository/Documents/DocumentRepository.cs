@@ -13,6 +13,7 @@ namespace AiKnowledge.Infrastructure.Repository.Documents
             _dbContext = dbContext;
         }
 
+
         public async Task AddAsync(
             Document document,
             CancellationToken cancellationToken)
