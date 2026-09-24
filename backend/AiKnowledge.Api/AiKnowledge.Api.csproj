@@ -8,11 +8,25 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\AiKnowledge.Application\AiKnowledge.Application.csproj" />
     <ProjectReference Include="..\AiKnowledge.Infrastructure\AiKnowledge.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Auth\" />
+    <Folder Include="Features\Conversations\" />
+    <Folder Include="Features\Admin\" />
+    <Folder Include="Features\RAG\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Middleware\" />
   </ItemGroup>
 
 </Project>
