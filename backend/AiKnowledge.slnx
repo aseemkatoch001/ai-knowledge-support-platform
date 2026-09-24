@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="../tests/tests/AiKnowledge.IntegrationTests/AiKnowledge.IntegrationTests.csproj" />
+  <Project Path="../tests/tests/AiKnowledge.UnitTests/AiKnowledge.UnitTests.csproj" />
+  <Project Path="../worker/AiKnowledge.Worker/AiKnowledge.Worker.csproj" />
+  <Project Path="AiKnowledge.Api/AiKnowledge.Api.csproj" />
+  <Project Path="AiKnowledge.Application/AiKnowledge.Application.csproj" />
+  <Project Path="AiKnowledge.Domain/AiKnowledge.Domain.csproj" />
+  <Project Path="AiKnowledge.Infrastructure/AiKnowledge.Infrastructure.csproj" />
+</Solution>
